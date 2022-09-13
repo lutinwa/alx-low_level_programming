@@ -6,14 +6,8 @@
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
-
-void print_alphabet(void)/*print alphabet*/
+int main(void)
 {
-	char letter;
-
-	for (letter = 'a' ; letter <= 'z' ; letter++)
-	{
-		_putchar(letter);
-	}
-	_putchar('\n');
+	print_alphabet();
+	return (0);
 }
