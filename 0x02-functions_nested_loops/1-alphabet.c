@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /* more headers goes there */
 /**
  * main - Entry point
@@ -13,7 +13,7 @@ void print_alphabet(void)/*print alphabet*/
 
 	for (letter = 'a' ; letter <= 'z' ; letter++)
 	{
-		putchar(letter);
+		_putchar(letter);
 	}
 	putchar('\n');
 }
