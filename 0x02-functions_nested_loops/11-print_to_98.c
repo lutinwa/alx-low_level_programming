@@ -4,7 +4,7 @@
  */
 
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print-to-98 - should print all natural numbers, 98 should be the last number
  */
