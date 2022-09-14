@@ -7,7 +7,6 @@
 
 /**
  * times-table - Prints multiples up to nine
- *              
  *
  *
  */
