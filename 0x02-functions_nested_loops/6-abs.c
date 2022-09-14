@@ -6,23 +6,15 @@
  * Return: Always 0 (Success)
  */
 /* betty style doc for function main goes there */
-
-int print_sign(int n)
+int _abs(int n)
 {
 	if (n > 0)
 	{
-		_putchar('+');
-		return (1);
+		return (n);
 	}
-	else if (n == 0)
+	else 
 	{
-		_putchar('0');
-		return (0);
-	}
-	else if (n < 0)
-	{
-		_putchar('-');
-		return (-1);
+		 return (-n);
 	}
 	return (0);
 }
