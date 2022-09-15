@@ -1,4 +1,3 @@
-A
 /*
  * File: 9-fizz_buzz.c
  * Auth: Lennox
